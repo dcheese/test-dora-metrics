@@ -1,5 +1,6 @@
 name="test"
-label="-l severity/p0 -l priority/high -l bug -l component/ext -l incident -l type/feature-request"
+#label="-l severity/p0 -l priority/high -l bug -l component/ext -l incident -l type/feature-request"
+label="-l bug -l incident -l pr-type/refactor -l p0 -l priority-high -l bug -l component/ext -l incident -l type/feature-request"
 body="-b default" 
 while [[ "$#" -gt 0 ]]
 do case $1 in
