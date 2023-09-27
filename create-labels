@@ -1,5 +1,6 @@
 gh label create devops -d "(DORA) This issue relates to CI/CD (devops)"
-gh label create incident -d "(DORA) This issue relates to CI/CD (devops)"
+gh label create incident -d "(DORA) This issue relates an incident"
+gh label create failure -d "(DORA) This issue relates failure"
 
 # DORA components
 gh label create component/ui -d "(DORA) This issue or PR relates to User Interfaces"
