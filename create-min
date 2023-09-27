@@ -1,6 +1,12 @@
-gh label create incident -d "(DORA) This issue relates to a JIRA incident"
+# Issue Tracking
+#Type
+gh label create feat -d "(DORA) This issue relates to a JIRA proposal"
+gh label create feature -d "(DORA) This issue relates to a JIRA proposal"
 gh label create proposal -d "(DORA) This issue relates to a JIRA proposal"
-gh label create requirement -d "(DORA) This issue relates to a JIRA requirement"
+gh label create requirement -d "(DORA) This issue relates to a JIRA proposal"
+gh label create broken -d "(DORA) This issue relates to a JIRA issue type"
+gh label create incident -d "(DORA) This issue relates to a JIRA incident"
+gh label create failure -d "(DORA) This issue relates to a JIRA failure"
 
 # DORA components
 gh label create component-ext -d "(DORA) This issue or PR relates to external components, such as Grafana"

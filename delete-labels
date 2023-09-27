@@ -5,9 +5,9 @@ gh label delete --yes incident
 gh label delete --yes pr-type-bug 
 gh label delete --yes priority-high
 gh label delete --yes requirement 
-gh label delete --yes requirment 
 gh label delete --yes severity-p0 
 gh label delete --yes proposal 
+gh label delete --yes failure 
 
 # DORA components
 gh label delete --yes --yes component/ui 
